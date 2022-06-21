@@ -1,0 +1,98 @@
+/* From uiverse.io by @alexruix */
+/*Magic card*/
+.card {
+  width: 390px;
+  height: 95vh;
+  background: rgba(200, 198, 198, 0.652);
+  overflow: visible;
+  box-shadow: 0 5px 20px 2px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2em;
+  padding: 0 1rem;
+}
+
+.card-img {
+  --size: 100px;
+  width: var(--size);
+  height: var(--size);
+  border-radius: 50%;
+  transform: translateY(-50%);
+  background: #42caff;
+  background: linear-gradient(to bottom, #42caff 0%, #e81aff 100%);
+  position: relative;
+  transition: all 0.3s ease-in-out;
+  border: 1rem solid #e8e8e8;
+}
+.card-img img {
+  position: relative;
+  left: 25%;
+  top: 20%;
+}
+
+/*Text*/
+.text-title {
+  text-transform: uppercase;
+  font-size: 0.75em;
+  color: #42caff;
+  letter-spacing: 0.05rem;
+}
+
+.text-body {
+  font-size: 0.8em;
+  text-align: center;
+  color: #6f6d78;
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* Positionnement des cards */
+.manager {
+  position: absolute;
+  left: 5%;
+  margin-top: 5%;
+  margin-right: 0;
+}
+.productmanager {
+  position: absolute;
+  left: 35%;
+  margin-top: 5%;
+  margin-right: 0;
+}
+.designer {
+  position: absolute;
+  margin-top: 5%;
+  left: 65%;
+  margin-right: 0;
+}
+.principalengeneer {
+  position: absolute;
+  left: 20%;
+  margin-top: 60%;
+  margin-right: 0;
+}
+.softwareengenir {
+  position: absolute;
+  left: 50%;
+  margin-top: 60%;
+  margin-right: 0;
+}
+
+/* /Positionnement des cards */
+
+/* positionement du titre */
+.title {
+  position: relative;
+  top: 5vh;
+  left: 45%;
+  width: 10%;
+}
+
+/* /positionement du titre */

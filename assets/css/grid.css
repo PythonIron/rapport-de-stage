@@ -1,0 +1,120 @@
+body {
+  background-color: white;
+}
+
+.mainTittle {
+  position: relative;
+  top: 5vh;
+  left: 35%;
+  bottom: 5vh;
+}
+.mainTittle2 {
+  position: absolute;
+  left: 35%;
+  margin-bottom: 5vh;
+}
+.rightColomn {
+  margin-top: 15vh;
+  margin-left: 5%;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.container .myTitle {
+  position: relative;
+  left: 30%;
+}
+.container ul > li {
+  font-size: 1.5em;
+}
+.centerColomn {
+  margin-top: 15vh;
+}
+.container .title {
+  position: relative;
+  left: 35%;
+}
+.leftColomn {
+  margin-top: 15vh;
+}
+
+/* Card */
+.card {
+  padding: 1vh;
+  width: 50vh;
+  height: 50vh;
+  background: rgb(255, 255, 255);
+  border-radius: 0.4em;
+  box-shadow: 21px 21px 100px #5a5a5a, -21px -21px 100px #ffffff;
+  transition: border 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  border: rgb(250, 250, 250) 0.2em solid;
+}
+
+.card:hover {
+  border: #006fff 0.2em solid;
+}
+
+.card1 {
+  padding: 2vh;
+  width: 90%;
+  height: 50vh;
+  background: rgb(255, 255, 255);
+  border-radius: 0.4em;
+  box-shadow: 21px 21px 100px #5a5a5a, -21px -21px 100px #ffffff;
+  transition: border 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  border: rgb(250, 250, 250) 0.2em solid;
+}
+
+.card1:hover {
+  border: #006fff 0.2em solid;
+}
+
+.card2 {
+  margin-left: 11vh;
+  padding: 2vh;
+  padding-left: 2.5vh;
+  width: 90%;
+  height: 60vh;
+  background: rgb(255, 255, 255);
+  border-radius: 0.4em;
+  box-shadow: 21px 21px 100px #5a5a5a, -21px -21px 100px #ffffff;
+  transition: border 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  border: rgb(250, 250, 250) 0.2em solid;
+}
+.card2 h1 {
+  position: relative;
+  left: 35%;
+  text-decoration: underline;
+}
+.card2 li {
+  margin-left: 5vh;
+}
+.card2:hover {
+  border: #006fff 0.2em solid;
+}
+
+.card3 {
+  margin-left: 11vh;
+  padding: 2vh;
+  padding-left: 2.5vh;
+  width: 90%;
+  height: 90vh;
+  background: rgb(255, 255, 255);
+  border-radius: 0.4em;
+  box-shadow: 21px 21px 100px #5a5a5a, -21px -21px 100px #ffffff;
+  transition: border 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  border: rgb(250, 250, 250) 0.2em solid;
+}
+.card3 h1 {
+  position: relative;
+  left: 35%;
+  text-decoration: underline;
+}
+.card3 li {
+  margin-left: 5vh;
+}
+.card3:hover {
+  border: #006fff 0.2em solid;
+}
